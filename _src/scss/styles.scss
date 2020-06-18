@@ -1,0 +1,14 @@
+// Here you can import all the scss you need
+@import 'components/_module1';
+
+body {
+	//font-family: 'DM Serif Display';
+	color: $primary-color;
+	background: blue;
+	//background: url('../../img/webpack-theme-img.jpg') bottom no-repeat;
+
+	a {
+		color: $link-color;
+		text-decoration: underline;
+	}
+}
